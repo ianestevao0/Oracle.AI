@@ -24,10 +24,12 @@ header.gilberto {
 }
 
 header.gilberto img {
-    max-width: 35%;
+    margin-top: 50px;
+    max-width: 26%;
     height: auto;
     border: solid 5px var(--cor-destaque);
-    border-radius:  5px;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .caixa-principal {
@@ -35,7 +37,8 @@ header.gilberto img {
     width: 90%;
     max-width: 600px;
     text-align: center;
-    padding: 20px;
+    text-shadow: #D7F9FF;
+    padding: 40px;
     border: solid 5px var(--cor-destaque);
     border-radius: 5px;
     margin-top: 20px;
