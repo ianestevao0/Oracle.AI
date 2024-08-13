@@ -6,27 +6,27 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um careca que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Assim que chegou na escola você se depara com um careca que consegue responder todas as dúvidas que uma pessoa pode ter, ele também fala 'calaivos'. Qual o primeiro pensamento?",
         alternativas: [
             {
-                texto: "minino é viado kkkkk!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Você pede a ele para lhe ensinar sobre mineração de bitcoins (+100000 aura)",
+                afirmacao: "Vocễ agora sabe usar a mineração de bitcoins como arma no seu dia a dia"
             },
             {
-                texto: "Giba sempre inteliente!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Você ousou o enfrentar e agora está amaldiçoado (-100000 aura)",
+                afirmacao: "péssima escolha, meu caro"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Você caminha mais um pouco pelos corredores do colégio, mas, de repente escuta um grito vindo em sua direção 'CAAALAIVOS SERES HUMANOS'.",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Você fica aterrorizado e baixa a cabeça imediatamente, ficando submisso ao mestre Oráculo.",
+                afirmacao: ""
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Você é muito corajoso e dá um tapa na careca dele, mas agora ele está furioso.",
                 afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
@@ -75,7 +75,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+let historiaFinal = "cabow";
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
