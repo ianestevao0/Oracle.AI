@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root {
     --cor-fundo: #9fbcd6;
     --cor-principal: #0B0D20;
-    --cor-secundaria: #212333; 
+    --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
 }
 
 body {
@@ -42,6 +48,7 @@ header.gilberto img {
     border: solid 5px var(--cor-destaque);
     border-radius: 5px;
     margin-top: 20px;
+ 
 }
 
 h1 {
@@ -55,6 +62,7 @@ button {
     border-radius: 15px;
     padding: 15px;
     transition: background-color 0.3s;
+    margin: 10px;
 }
 
 button:hover {
